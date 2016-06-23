@@ -86,6 +86,7 @@
 	"ip_method=none\0" \
 	"bootargs_defaults=setenv bootargs " \
 		"console=${console} " \
+		"consoleblank=0 " \
 		"${optargs}\0" \
 	"mmcargs=run bootargs_defaults;" \
 		"setenv bootargs ${bootargs} " \
